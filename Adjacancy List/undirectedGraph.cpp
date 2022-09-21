@@ -5,7 +5,7 @@ int main()
 {
     int n,m; //n-->number of nodes, m-->number of edges
     cin>>n>>m;
-    vector<int>adj[n];
+    vector<int>adj[n]; //node numbering starts from 0
 
     for(int i=0;i<m;++i) //building the adj list
     {
