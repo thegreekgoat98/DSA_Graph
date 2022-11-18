@@ -4,6 +4,7 @@
 //SC->O(N+E) + O(N) + O(N)
 
 
+// Function to return a list containing the BFS traversal of the graph.
 
     vector<int> bfsOfGraph(int V, vector<int> adj[]) 
     {
