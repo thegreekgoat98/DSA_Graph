@@ -1,6 +1,13 @@
-vector<int> bfsOfGraph(int V, vector<int> adj[]) 
+//TC-> O(N+E)
+// N->time taken for visiting N nodes, E->travelling adjacant nodes overall.
+
+//SC->O(N+E) + O(N) + O(N)
+
+
+
+    vector<int> bfsOfGraph(int V, vector<int> adj[]) 
     {
-        vector<int>ans;
+        vector<int>ans; //for storing the BFS order nodes
         vector<int>vis(V,0);
         for(int i=0;i<V;++i) //node numbering starts from 0.
         {
