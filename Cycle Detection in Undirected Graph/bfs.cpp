@@ -1,4 +1,7 @@
+//TC-> O(N+E)
+// N->time taken for visiting N nodes, E->travelling adjacant nodes overall.
 
+//SC->O(N+E) + O(N) + O(N)
 
 // Function to detect cycle in an undirected graph.
     bool isCycle(int V, vector<int> adj[]) 
