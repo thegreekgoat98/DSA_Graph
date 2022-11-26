@@ -34,7 +34,7 @@
                     vis[it]=true;
                     q.push({it,node});
                 }
-                else if(par!=it) //if visited, and this current node(it) is not the parent of the node
+                else if(par!=it) //if visited, and this current node(it) is not the parent of the node, there is a cycle.
                     return true;
             }
         }
